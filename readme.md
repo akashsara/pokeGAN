@@ -69,7 +69,9 @@ Discriminator:
 Now, quite obviously, these look nothing like actual Pokémon. I sort of expected this for two reasons:
 1. ~7000 images is actually ridiculously low for training a GAN. Most GANs need far more data for good results.
 2. Pokémon. Each individual Pokémon is pretty different. There's not too many similarities between say, Pikachu and Giratina. Some Pokémon are literally just rocks or magnets or ice cream cones. Some have no visible eyes, some have one or two while others have a lot of them. There are arms, fins, wings and tails. Some fly, some have legs, some are just floating blobs. So to try and make something that *feels* like a Pokémon is hard. But I'm still moderately satisfied with the results.
- 
+
+Do note that while they don't look exactly like Pokémon, they are on the right track. There seem to be fairly distinct features. For instance, the top left corner is some sort of four legged creature with a head and two tails in an arc. But again, that could just be my own imagination. Or the 4th row, 6th column. Seems like a bird flying to me. Bottom left is some sort of biped. And so on.
+
 ![Loss](images/loss.png)
 
 (Iterations here indicates batches, not epochs.)
